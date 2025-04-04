@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../css/all.css">
+    <!-- FONT  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- BANNER -->
+    <div class="banner">
+        <div class="scrolling-text">
+            SHOP 10% OFF EVERYTHING!!!
+        </div>
+    </div>
+    <hr>
+                <!-- HEADER  -->
+    <header>
+        <img src="../design/2-removebg-preview.png" alt="logo" >
+        <i class="fa-solid fa-grip-vertical"></i>
+        <div class="middle-links">
+            <a href="index.html">HOME</a>
+            <a href="../00-Shop/Shop.html">SHOP EVERYTHING!</a>
+            <a href="../00-Shop/Shop.html">NEW IN</a>
+        </div>
+        <div class="right-links">
+            <input type="text" class="s-input" placeholder="Search...">
+            
+            <a href="../Carts/cart.html"><i class="fa-solid fa-cart-shopping "><span class="cart-counter" id="cartCounter">0</span></i></a>
+        </div>
+    </header>
+
+    <!-- TOP SLIDE  -->
+    <section>
+        <div class="top-slider"> 
+            <div class="top-slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <div class="top-slide first one">
+                    <button class="flashButton">SHOP ALL !!!</button>
+                </div>
+                <div class="top-slide two">
+                    <button class="flashButton">SHOP TRENDING!!</button>
+                </div>
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                </div>
+            </div>
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURED PRODUCTS  -->
+    <section class="featured-products">
+        <h2 class="fade-in">FEATURED PRODUCTS</h2>
+        <div class="sales-divider"><h3>SHOP 10% OFF EVERYTHING. JUST ADD TO CART</h3></div>
+        <div class="product-grid">
+            <div class="product fade-in">
+                <img src="../images/black-bob-fringe2.jpg" alt="Dress 3">
+                <h3>Fringe Bob</h3>
+                <p>&#8358; 180,000</p>
+                <button class="cart" onclick="addToCart()">Add to Cart</button>
+            </div>
+            <div class="product fade-in">
+                <img src="../images/pixie-white.jpg" alt="Dress 4">
+                <h3>Pixie-Curls</h3>
+                <p>&#8358; 250,000</p>
+                <button class="cart" onclick="addToCart()">Add to Cart</button>
+            </div>
+            <div class="product fade-in">
+                <img src="../images/black-long.jpg" alt="Dress 4">
+                <h3>Bone-Straight</h3>
+                <p>&#8358; 550,000</p>
+                <button class="cart" onclick="addToCart()">Add to Cart</button>
+            </div>
+            <div class="product fade-in">
+                <img src="../images/blonde-long-wavy.jpg" alt="Dress 4">
+                <h3>Raw donor wavy</h3>
+                <p>&#8358; 600,000</p>
+                <button class="cart" onclick="addToCart()">Add to Cart</button>
+            </div>
+            <div class="product fade-in">
+                <img src="../images/black-headband2.jpg" alt="Dress 4">
+                <h3>Pixie-Curls Headband </h3>
+                <p>&#8358; 80,000</p>
+                <button class="cart" onclick="addToCart()">Add to Cart</button>
+            </div>
+            <div class="product fade-in">
+                <img src="../images/black-deepwave-long.jpg" alt="Dress 4">
+                <h3>Vietnamese Deepwave</h3>
+                <p>&#8358; 350,000</p>
+                <button class="cart" onclick="addToCart()">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1 class="fade-in">Subscribe to our Newsletter</h1>
+            <p class="fade-in">Be the first to know of our latest products.</p>
+            <a href="#" class="btn fade-in">Sign Up</a>
+        </div>
+        <div class="hero-images">
+            <img src="../images/black-deepwave-long.jpg" alt="Dress 1" class="float">
+            <img src="../images/blonde-long-wavy.jpg" alt="Dress 2" class="float">
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>We are a store dedicated to bringing you the latest in fashion trends. Our mission is to make you look and feel fabulous!</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: bolaforms@gmail.com</p>
+                <p>Phone: +2345678432234</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Etuka Nkechi. All rights reserved.</p>
+        </div>
+        </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

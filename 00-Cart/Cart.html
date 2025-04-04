@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="Cart.css">
+    <link rel="stylesheet" href="../css/all.css">
+</head>
+<body>
+    <!-- HEADER  -->
+    <header>
+        <img src="../design/2-removebg-preview.png" alt="logo" >
+        <i class="fa-solid fa-grip-vertical"></i>
+        <div class="middle-links">
+            <a href="../00-Wigs/index.html">HOME</a>
+            <a href="../00-Shop/Shop.html">SHOP EVERYTHING!</a>
+            <a href="../00-Shop/Shop.html">NEW IN</a>
+        </div>
+        <div class="right-links">
+            <input type="text" class="s-input" placeholder="Search...">
+            
+            <a href="Cart.html"><i class="fa-solid fa-cart-shopping "><span class="cart-counter" id="cartCounter">0</span></i></a>
+        </div>
+    </header>
+
+    <!-- CART CONTENT -->
+    <main class="cart-page">
+        <h1>Your Cart</h1>
+        <div class="cart-items" id="cartItems">
+            <!-- Cart items will be dynamically inserted here -->
+        </div>
+
+        <!-- CART SUMMARY -->
+        <div class="cart-summary">
+            <h2>Order Summary</h2>
+            <div class="summary-details">
+                <p>Subtotal: <span id="subtotal">&#8358;0.00</span></p>
+                <p>TShipping: <span id="tax">&#8358;0.00</span></p>
+                <p class="total">Total: <span id="total">&#8358;0.00</span></p>
+            </div>
+            <button class="checkout-btn">Proceed to Checkout</button>
+        </div>
+    </main>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>We are a store dedicated to bringing you the latest in fashion trends. Our mission is to make you look and feel fabulous!</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: bolaforms@gmail.com</p>
+                <p>Phone: +2345678432234</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Etuka Nkechi. All rights reserved.</p>
+        </div>
+        </footer>
+    <script src="Cart.js"></script>
+</body>
+</html>

@@ -128,6 +128,11 @@ header .fa-grip-vertical {
         display: none;
     }
 }
+@media screen and (max-width: 467px) {
+  body{
+    width: 120%;
+  }
+}
 /* CART  */
 
 .cart{
